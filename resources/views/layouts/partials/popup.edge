@@ -1,0 +1,408 @@
+
+{{--  menu 시작  --}}
+{{--  입금  --}}
+<div id="myModal-system" class="myModal-system modal deposit" style="display:none;">
+    
+    <div id="modal-content" class="modal-box">
+        <div class="top-msg"><span class="system-name"><span>Galaxy</span> deposit cash manager</span><span class="close"><img src="/assets/images/box-close.png"></span></div>
+        
+        <div class="contents-wrap">
+            <span class="top-txt">입금신청</span>
+            <span class="sub-txt">신속한 충전을 위해서는 올바른 입금정보를 입력해 주셔야 합니다.<br>입금확인 즉시 신청하신 아이디로 게임머니가 충전 됩니다.<br><br>
+                <span>회원님들의 안전과 보안을 위해 입금계좌는 수시로 변경될 수 있습니다.<br>입금신청 후 문자로 현재 회원님의 입금계좌가 발송되니 꼭! 확인 후 입금해주시기 바랍니다. 이전계좌입금시 불이익이 발생할 수 있습니다.<span class="caution"><img src="/assets/images/caution.png"></span></span>
+            </span>
+            
+            <div class="sub-content-wrapper">
+                <div class="liner-wrapper">
+                    <span class="name-label">신청게임</span>
+                    <span class="cont-label"><select class="select-sytle-type1"><option>게임을 선택해 주세요.</option></select></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">연락처</span>
+                    <span class="cont-label"><input type="text" class="input-sytle-type1" placeholder="숫자만 입력해 주세요."><span class="dup-button">연락처 변경</span></span>
+                </div>
+                <div class="liner-wrapper-manual">
+                    <span class="name-label">&nbsp;</span>
+                    <span class="cont-label"><span class="input-style-manual">입력된 연락처로 계좌정보가 전송되오니 정확하게 입력하시기 바랍니다.</span></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">입금금액</span>
+                    <span class="cont-label"><input type="text" class="input-sytle-type1" placeholder="직접입력또는 선택할 수 있습니다."></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">&nbsp;</span>
+                    <span class="cont-label">
+                        <span class="cashdraw-button">+ 50,000</span>
+                        <span class="cashdraw-button">+ 100,000</span>
+                        <span class="cashdraw-button">+ 500,000</span>
+                        <span class="cashdraw-button">+ 1,000,000</span>
+                        <span class="cashdraw-button">+ 3,000,000</span>
+                        <span class="cashdraw-button">+ 초기화</span>
+                    </span>
+                </div>
+                <div class="liner-wrapper-manual">
+                    <span class="name-label">&nbsp;</span>
+                    <span class="cont-label"><span class="input-style-manual">입금 최소금액은 5만원 입니다.</span></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">입금자명</span>
+                    <span class="cont-label"><input type="text" class="input-sytle-type1" placeholder="입금자명"></span>
+                </div>
+                <div class="liner-wrapper-manual">
+                    <span class="name-label">&nbsp;</span>
+                    <span class="cont-label"><span class="input-style-manual">입금자명과 출금신청시 예금주명이 동일하지 않은 경우에는 “남기고 싶은말”란에 적어주세요.</span></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">남기고싶은말</span>
+                    <span class="cont-label"><textarea class="textarea-sytle-type1" placeholder="남기고싶은말을 적어주세요."></textarea></span>
+                </div>
+                <div class="liner-wrapper-manual">
+                    <span class="name-label">&nbsp;</span>
+                    <span class="cont-label"><span class="input-style-manual" style="color:#b3b9cb; margin:5px 0 0;">보편적으로 23:50 - 00:30, 휴일 다음 첫 영업일 새벽에는 계좌이체가 지원되지 않습니다.<br>위시간 이외 씨티은행, 농협, 우체국은 추가적 점검시간이 따로 있으니 유념하시기 바랍니다.</span></span>
+                </div>
+            </div>
+            
+            <div class="modal-btm-button" style="margin:20px 0 0;"><span class="modal-agree">신청하기</span></div>
+            
+            <div class="caution-message-box">
+                <span class="caution-txt">회원님의 입금계좌는 수시로 변경될 수 있습니다.<br>입금신청 후 꼭 받으시는 계좌 문자확인후 입금 바랍니다.<br>또한 이에대한 불이익은 본인에게 있습니다.</span>
+                <div class="caution-button-area">
+                    <span class="caut-button">오늘 하루 그만보기</span>
+                    <span class="caut-button">닫기</span>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+</div>
+{{--  출금  --}}
+<div id="myModal-system" class="myModal-system modal exchange" style="display:none;">
+    
+    <div id="modal-content" class="modal-box">
+        <div class="top-msg"><span class="system-name"><span>Galaxy</span> deposit cash manager</span><span class="close"><img src="/assets/images/box-close.png"></span></div>
+        
+        <div class="contents-wrap">
+            <span class="top-txt">출금신청</span>
+            <span class="sub-txt">24시간 출금이 언제든지 가능하오나, 은행 및 금융감독원 점검시간 및 전산장애 시에는 지연될 수 있습니다.<br>
+                <span>출금 최소 금액은 50,000원 부터 입니다.</span>
+            </span>
+            
+            <div class="sub-content-wrapper">
+                <div class="liner-wrapper">
+                    <span class="name-label">신청게임</span>
+                    <span class="cont-label"><select class="select-sytle-type1"><option>게임을 선택해 주세요.</option></select></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">출금가능금액</span>
+                    <span class="cont-label"><span class="cont-none">출금가능 금액이 존재하지 않습니다.</span><span class="cont-block">10,000,000 원</span></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">출금금액</span>
+                    <span class="cont-label"><input type="text" class="input-sytle-type1" placeholder="직접입력또는 선택할 수 있습니다."></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">&nbsp;</span>
+                    <span class="cont-label">
+                        <span class="cashdraw-button">+ 50,000</span>
+                        <span class="cashdraw-button">+ 100,000</span>
+                        <span class="cashdraw-button">+ 500,000</span>
+                        <span class="cashdraw-button">+ 1,000,000</span>
+                        <span class="cashdraw-button">+ 3,000,000</span>
+                        <span class="cashdraw-button">+ 초기화</span>
+                    </span>
+                </div>
+                <div class="liner-wrapper-manual">
+                    <span class="name-label">&nbsp;</span>
+                    <span class="cont-label"><span class="input-style-manual">출금 최소금액은 5만원 입니다.</span></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">은행명</span>
+                    <span class="cont-label"><select class="select-sytle-type1"><option>국민은행</option></select></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">예금주</span>
+                    <span class="cont-label"><input type="text" class="input-sytle-type1" placeholder="예금주"></span>
+                </div>
+                <div class="liner-wrapper-manual">
+                    <span class="name-label">&nbsp;</span>
+                    <span class="cont-label"><span class="input-style-manual">입금자명과 출금신청시 예금주명이 동일하지 않은 경우에는 최대 2일까지 별도의 입금자<br>본인 확인절차를 거친후 출금처리가 진행됩니다.</span></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">남기고싶은말</span>
+                    <span class="cont-label"><textarea class="textarea-sytle-type1" placeholder="남기고싶은말을 적어주세요."></textarea></span>
+                </div>
+            </div>
+            
+            <div class="modal-btm-button" style="margin:80px 0 0;"><span class="modal-agree">신청하기</span></div>
+            
+            <!--div class="caution-message-box">
+                <span class="caution-txt">두개의 아이디 또는 지인과 크로스배팅하는 회원<br>타사이트와 크로스배팅하는 회원<br>적발시 적발자와 관련된 모든 회원 몰수처리 합니다.</span>
+                <div class="caution-button-area">
+                    <span class="caut-button">오늘 하루 그만보기</span>
+                    <span class="caut-button">닫기</span>
+                </div>
+            </div-->
+            
+            
+        </div>
+    </div>
+
+</div>
+{{--  머니 이동  --}}
+<div id="myModal-system" class="myModal-system modal money" style="display:none;">
+    
+    <div id="modal-content" class="modal-box">
+        <div class="top-msg"><span class="system-name"><span>Galaxy</span> deposit cash manager</span><span class="close"><img src="/assets/images/box-close.png"></span></div>
+        
+        <div class="contents-wrap">
+            <span class="top-txt">게임머니 이동신청</span>
+            <span class="sub-txt">회원님이 이용하는 게임브랜드가 아닌 다른 브랜드로 입금 처리가 되었을 경우 게임머니 이동신청을 작성해 주세요.<br>회원님의 이용 브랜드로 이동할 수 있습니다.</span>
+            </span>
+            
+            <div class="sub-content-wrapper">
+                <div class="liner-wrapper">
+                    <span class="name-label">이동전 게임</span>
+                    <span class="cont-label"><select class="select-sytle-type1"><option>신청할 게임을 선택해 주세요.</option></select></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">가능금액</span>
+                    <span class="cont-label"><span class="cont-none">게임을 선택하면 보유한 금액이 표시 됩니다.</span><span class="cont-block">10,000,000 원</span></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">이동후 게임</span>
+                    <span class="cont-label"><select class="select-sytle-type1"><option>신청할 게임을 선택해 주세요.</option></select></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">신청금액</span>
+                    <span class="cont-label"><input type="text" class="input-sytle-type1" placeholder="직접입력또는 선택할 수 있습니다."></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">&nbsp;</span>
+                    <span class="cont-label">
+                        <span class="cashdraw-button">+ 50,000</span>
+                        <span class="cashdraw-button">+ 100,000</span>
+                        <span class="cashdraw-button">+ 500,000</span>
+                        <span class="cashdraw-button">+ 1,000,000</span>
+                        <span class="cashdraw-button">+ 3,000,000</span>
+                        <span class="cashdraw-button">+ 초기화</span>
+                    </span>
+                </div>
+                <div class="liner-wrapper-manual">
+                    <span class="name-label">&nbsp;</span>
+                    <span class="cont-label"><span class="input-style-manual">이동 최소 금액은 5만원 입니다.</span></span>
+                </div>
+            </div>
+            
+            <div class="modal-btm-button" style="margin:20px 0 0;"><span class="modal-agree">신청하기</span></div>
+            
+            
+        </div>
+    </div>
+
+</div>
+{{--  이벤트  --}}
+<div id="myModal-system" class="myModal-system modal event" style="display:none;">
+    
+    <div id="modal-content" class="modal-box">
+        <div class="top-msg"><span class="system-name"><span>Galaxy</span> deposit cash manager</span><span class="close"><img src="/assets/images/box-close.png"></span></div>
+        
+        <div class="contents-wrap">
+            <span class="top-txt">이벤트 신청</span>
+            <span class="sub-txt">이벤트 신청 후 게임창 로그인 하셔야 지급 가능 합니다.</span>
+            </span>
+            
+            <div class="sub-content-wrapper">
+                <div class="liner-wrapper">
+                    <span class="name-label">신청게임</span>
+                    <span class="cont-label"><select class="select-sytle-type1"><option>게임을 선택해 주세요.</option></select></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">연락처</span>
+                    <span class="cont-label"><input type="text" class="input-sytle-type1" placeholder="010 5555 5555"><span class="dup-button">인증번호 받기</span></span>
+                </div>
+                <div class="liner-wrapper-manual">
+                    <span class="name-label">&nbsp;</span>
+                    <span class="cont-label"><span class="input-style-manual">인증번호를 받으실 핸드폰번호를 입력해 주세요.</span></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">인증번호</span>
+                    <span class="cont-label"><input type="text" class="input-sytle-type1" placeholder="인증번호를 입력해 주세요."></span>
+                </div>
+                <div class="liner-wrapper">
+                    <span class="name-label">남기고싶은말</span>
+                    <span class="cont-label"><textarea class="textarea-sytle-type1" placeholder="남기고싶은말을 적어주세요."></textarea></span>
+                </div>
+            </div>
+            
+            <div class="modal-btm-button" style="margin:80px 0 0;"><span class="modal-agree">신청하기</span></div>
+            
+            
+        </div>
+    </div>
+
+</div>
+{{--  쿠폰  --}}
+<div id="myModal-system" class="myModal-system modal coupon" style="display:none;">
+    
+    <div id="modal-content" class="modal-box">
+        <div class="top-msg"><span class="system-name"><span>Galaxy</span> Coupon</span><span class="close"><img src="/assets/images/box-close.png"></span></div>
+        
+        <div class="contents-wrap">
+            <span class="top-txt">쿠폰관리</span>
+            <span class="sub-txt">회원님의 쿠폰관리 내역 입니다. 기타문의 사항은 고객센터로 문의 주세요.</span>
+            </span>
+            
+            <div class="sub-content-wrapper">
+                <div class="tablediv-wrapper">
+                    <div class="tablediv-content">
+                        <div class="scrolldiv-top">
+                            <table>
+                                <colgroup>
+                                    <col width="20%">
+                                    <col width="10%">
+                                    <col width="20%">
+                                    <col width="20%">
+                                    <col width="10%">
+                                    <col width="20%">
+                                </colgroup>
+                                <thead>
+                                    <th>등록일</th>
+                                    <th>쿠폰명</th>
+                                    <th>쿠폰금액</th>
+                                    <th>만료일자</th>
+                                    <th>사용브랜드</th>
+                                    <th>쿠폰사용</th>
+                                </thead>
+                            </table>
+                        </div>
+                        <div class="scrolldiv">
+                            <table>
+                                <colgroup>
+                                    <col width="20%">
+                                    <col width="10%">
+                                    <col width="20%">
+                                    <col width="20%">
+                                    <col width="10%">
+                                    <col width="20%">
+                                </colgroup>
+                                <tbody>
+                                    <tr class="tr-wrap">
+                                        <td>02/02 15:00:00</td>
+                                        <td>이벤트 쿠폰</td>
+                                        <td>50,000 원</td>
+                                        <td>02/02 15:00:00</td>
+                                        <td>기간만료</td>
+                                        <td><span class="coupon-user">사용하기</span></td>
+                                    </tr>
+                                    <tr class="tr-wrap">
+                                        <td class="complate-td">02/02 15:00:00</td>
+                                        <td class="complate-td">이벤트 쿠폰</td>
+                                        <td class="complate-td">50,000 원</td>
+                                        <td class="complate-td">02/02 15:00:00</td>
+                                        <td class="complate-td">기간만료</td>
+                                        <td><span class="coupon-complate">사용완료</span></td>
+                                    </tr>
+                                    <tr class="tr-wrap">
+                                        <td>02/02 15:00:00</td>
+                                        <td>이벤트 쿠폰</td>
+                                        <td>50,000 원</td>
+                                        <td>02/02 15:00:00</td>
+                                        <td>기간만료</td>
+                                        <td><span class="coupon-done">사용불가</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+</div>
+
+{{--  menu 끝  --}}
+
+
+
+{{--  ui popup 시작  --}}
+
+{{--  공지사항  --}}
+<div id="myModal-system" class="myModal-system modal notice" style="display:none;">
+    
+    <div id="modal-content" class="modal-box">
+        <div class="top-msg"><span class="system-name"><span>Galaxy</span> Notice board</span><span class="close"><img src="/assets/images/box-close.png"></span></div>
+        
+        <div class="contents-wrap">
+            <span class="top-txt">공지사항</span>
+            
+            <div class="tablediv-wrapper">
+
+                <div class="board_view_type">
+                    
+                    <h1>작성글 타이틀 자리 입니다. 테스트 입니다.<br><span>2018. 02. 28. 15:20:00 관리자</span></h1>
+                    
+                    <div class="writer_textarea">
+                        <p>테스트 입니다. 작성자 글이 올라옵니다.<br>테스트 입니다. 작성자 글이 올라옵니다.<br>테스트 입니다. 작성자 글이 올라옵니다.<br>테스트 입니다. 작성자 글이 올라옵니다.<br>테스트 입니다. 작성자 글이 올라옵니다.</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="button_position"><span class="defult_button">뒤로가기</span></div>
+              
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+
+{{--  마이페이지  --}}
+<div id="myModal-system" class="myModal-system modal mypage" style="display:none;">
+    
+    <div id="modal-content" class="modal-box">
+        <div class="top-msg"><span class="system-name"><span>Galaxy</span> My page</span><span class="close"><img src="/assets/images/box-close.png"></span></div>
+        
+        <div class="contents-wrap">
+            <span class="top-txt">마이페이지</span>
+            
+            <div class="sub-content-wrapper">
+                <div class="tablediv-wrapper">
+                    <div class="tablediv-tab-area">
+                        <span class="tab-button-on">회원가입정보</span>
+                        <span class="tab-button">연락처변경</span>
+                        <span class="tab-button">고객계좌관리</span>
+                    </div>
+                    <div class="userinfo-content">
+                        <div class="sub-content-wrapper">
+                            <div class="liner-wrapper">
+                                <span class="name-label">현재 비밀번호</span>
+                                <span class="cont-label"><input type="password" class="input-sytle-type1" placeholder="비밀번호를 입력해 주세요."></span>
+                            </div>
+                            <div class="liner-wrapper">
+                                <span class="name-label">새로운 비밀번호</span>
+                                <span class="cont-label"><input type="password" class="input-sytle-type1" placeholder="새로운 비밀번호를 입력해 주세요."></span>
+                            </div>
+                            <div class="liner-wrapper">
+                                <span class="name-label">비밀번호 확인</span>
+                                <span class="cont-label"><input type="password" class="input-sytle-type1" placeholder="비밀번호를 확인"></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-btm-button" style="margin:20px 0 0;"><span class="modal-agree">개인정보 변경하기</span></div>
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+
+</div>
+
+{{--  ui popup Rmx  --}}

@@ -1,0 +1,6 @@
+{
+  "assets/app.css": "http://localhost:8080/assets/app.css",
+  "assets/app.js": "http://localhost:8080/assets/app.js",
+  "assets/images/auth/login-office.jpeg": "http://localhost:8080/assets/images/auth/login-office.0f3e03bf.jpeg",
+  "assets/images/auth/login-office-dark.jpeg": "http://localhost:8080/assets/images/auth/login-office-dark.357638d9.jpeg"
+}
