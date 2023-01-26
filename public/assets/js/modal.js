@@ -70,12 +70,35 @@ $(function() {
     });
     
 
-    
+    // 파트너제휴
+    $(".partnership_show").click(function() {
+      $(".partnership").css({
+        "display": "block"
+      });
+    });
 
-    
+     // 안전지킴이 
+     $(".vaccine_show").click(function() {
+      $(".vaccine").css({
+        "display": "block"
+      });
+    });
 
-    
-	
+    // 원격지원 
+    $(".remote_show").click(function() {
+      $(".remote").css({
+        "display": "block"
+      });
+    });
+
+    // 게임룰
+    $(".gamerule_show").click(function() {
+      $(".gamerule").css({
+        "display": "block"
+      });
+    });
+
+
 	$(".modal-disagree").click(function() {
       $("#myModal-system").css({
         "display": "none"
